@@ -1,0 +1,6 @@
+<h3> Song title: <%= @song.title %></h3>
+
+<div>
+  Written by:<br></br>
+  <div> <%= link_to @song.artist.name, artist_path(@song) %> </div>
+</div>
